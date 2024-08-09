@@ -19,7 +19,7 @@ const Note = () => {
   const [edittitle, setEditTitle] = useState("");
   const [editdesc, setEditDesc] = useState("");
 
-  const apiUrl = "http://localhost:4000";
+  const apiUrl = "https://mern-crud-server-159q.onrender.com";
   // Add Item Control
   const handlesubmit = () => {
     setError("");
